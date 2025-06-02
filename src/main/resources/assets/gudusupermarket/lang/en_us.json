@@ -1,10 +1,13 @@
 {
   "item.gudusupermarket.bismuth" : "Bismuth",
   "item.gudusupermarket.raw_bismuth" : "Raw Bismuth",
+  "item.gudusupermarket.morgans_disappointment" : "Morgan's Disappointment",
 
   "block.gudusupermarket.bismuth_block" : "Block of Bismuth",
   "block.gudusupermarket.bismuth_ore" : "Bismuth Ore",
+  "block.gudusupermarket.morgans_disappointment_block" : "Block of Morgan's Disappointment",
 
   "creativetab.gudusupermarket.bismuth_items" : "Bismuth Items",
-  "creativetab.gudusupermarket.bismuth_blocks" : "Bismuth Blocks"
+  "creativetab.gudusupermarket.bismuth_blocks" : "Bismuth Blocks",
+  "creativetab.gudusupermarket.morgans_disappointment" : "Morgan's Disappointment"
 }

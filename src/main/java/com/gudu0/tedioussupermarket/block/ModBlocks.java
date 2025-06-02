@@ -21,11 +21,22 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)));
 
     public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
-                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    BlockBehaviour.Properties.of().strength(3f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.STONE)));
+
+
+    public static final DeferredBlock<Block> MORGANS_DISAPPOINTMENT_BLOCK = registerBlock("morgans_disappointment_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.SLIME_BLOCK)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
