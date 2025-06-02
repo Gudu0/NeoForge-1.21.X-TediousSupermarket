@@ -3,5 +3,8 @@
   "item.gudusupermarket.raw_bismuth" : "Raw Bismuth",
 
   "block.gudusupermarket.bismuth_block" : "Block of Bismuth",
-  "block.gudusupermarket.bismuth_ore" : "Bismuth Ore"
+  "block.gudusupermarket.bismuth_ore" : "Bismuth Ore",
+
+  "creativetab.gudusupermarket.bismuth_items" : "Bismuth Items",
+  "creativetab.gudusupermarket.bismuth_blocks" : "Bismuth Blocks"
 }

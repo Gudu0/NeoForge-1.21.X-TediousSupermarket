@@ -1,6 +1,7 @@
 package com.gudu0.tedioussupermarket;
 
 import com.gudu0.tedioussupermarket.block.ModBlocks;
+import com.gudu0.tedioussupermarket.item.ModCreativeModeTabs;
 import com.gudu0.tedioussupermarket.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -36,6 +37,8 @@ public class TediousSupermarket {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
