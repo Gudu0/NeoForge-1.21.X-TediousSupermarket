@@ -3,11 +3,15 @@
   "item.gudusupermarket.raw_bismuth" : "Raw Bismuth",
   "item.gudusupermarket.morgans_disappointment" : "Morgan's Disappointment",
   "item.gudusupermarket.chisel" : "Chisel",
+  "item.gudusupermarket.radish" : "Radish",
+  "item.gudusupermarket.frostfire_ice" : "Frostfire Ice",
+  "item.gudusupermarket.starlight_ashes" : "Starlight Ashes",
 
   "block.gudusupermarket.bismuth_block" : "Block of Bismuth",
   "block.gudusupermarket.bismuth_ore" : "Bismuth Ore",
   "block.gudusupermarket.morgans_disappointment_block" : "Block of Morgan's Disappointment",
   "block.gudusupermarket.bismuth_deepslate_ore" : "Deepslate Bismuth Ore",
+  "block.gudusupermarket.magic_block" : "Magic Block",
 
   "creativetab.gudusupermarket.bismuth_items" : "Bismuth Items",
   "creativetab.gudusupermarket.bismuth_blocks" : "Bismuth Blocks",

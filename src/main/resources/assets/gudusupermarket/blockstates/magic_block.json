@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "gudusupermarket:block/magic_block"
+    }
+  }
+}

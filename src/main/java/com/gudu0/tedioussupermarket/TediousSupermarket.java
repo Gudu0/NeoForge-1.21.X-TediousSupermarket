@@ -3,7 +3,7 @@ package com.gudu0.tedioussupermarket;
 import com.gudu0.tedioussupermarket.block.ModBlocks;
 import com.gudu0.tedioussupermarket.item.ModCreativeModeTabs;
 import com.gudu0.tedioussupermarket.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
+//import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -55,15 +55,15 @@ public class TediousSupermarket {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-//            event.accept(ModItems.BISMUTH);
+//        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+//             event.accept(ModItems.BISMUTH);
 //            event.accept(ModItems.RAW_BISMUTH);
-        }
-
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+//        }
+//
+//        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 //            event.accept(ModBlocks.BISMUTH_BLOCK);
 //            event.accept(ModBlocks.BISMUTH_ORE);
-        }
+//        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

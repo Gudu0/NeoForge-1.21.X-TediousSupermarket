@@ -1,6 +1,7 @@
 package com.gudu0.tedioussupermarket.block;
 
 import com.gudu0.tedioussupermarket.TediousSupermarket;
+import com.gudu0.tedioussupermarket.block.custom.MagicBlock;
 import com.gudu0.tedioussupermarket.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -21,30 +22,37 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.AMETHYST)));
+                            .strength(4f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.AMETHYST)));
 
     public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
-                    BlockBehaviour.Properties.of().strength(3f)
+                            BlockBehaviour.Properties.of()
+                            .strength(3f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> BISMUTH_DEEPSLATE_ORE = registerBlock("bismuth_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6),
-                    BlockBehaviour.Properties.of().strength(4f)
+                            BlockBehaviour.Properties.of()
+                            .strength(4f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.DEEPSLATE)));
 
-
     public static final DeferredBlock<Block> MORGANS_DISAPPOINTMENT_BLOCK = registerBlock("morgans_disappointment_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(6f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.SLIME_BLOCK)));
+                            .strength(6f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.SLIME_BLOCK)));
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of()
+                                .strength(2f)
+                                .requiresCorrectToolForDrops()));
 
 
+    //Code for making the block item
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
