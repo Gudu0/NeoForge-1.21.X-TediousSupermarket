@@ -40,16 +40,10 @@ public class ModBlocks {
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.DEEPSLATE)));
 
-    public static final DeferredBlock<Block> MORGANS_DISAPPOINTMENT_BLOCK = registerBlock("morgans_disappointment_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                            .strength(6f)
-                            .requiresCorrectToolForDrops()
-                            .sound(SoundType.SLIME_BLOCK)));
-
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of()
                                 .strength(2f)
-                                .requiresCorrectToolForDrops()));
+                                .noLootTable()));
 
 
     //Code for making the block item

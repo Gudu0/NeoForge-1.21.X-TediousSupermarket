@@ -3,10 +3,15 @@ package com.gudu0.tedioussupermarket.item;
 import com.gudu0.tedioussupermarket.TediousSupermarket;
 import com.gudu0.tedioussupermarket.item.custom.ChiselItem;
 import com.gudu0.tedioussupermarket.item.custom.FuelItem;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(TediousSupermarket.MOD_ID);
@@ -17,14 +22,17 @@ public class ModItems {
     public static final DeferredItem<Item> RAW_BISMUTH = ITEMS.register("raw_bismuth",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> MORGANS_DISAPPOINTMENT = ITEMS.register("morgans_disappointment",
-            () -> new Item(new Item.Properties()));
-
     public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)));
 
     public static final DeferredItem<Item> RADISH = ITEMS.register("radish",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.RADISH)));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RADISH)) {
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.gudusupermarket.radish.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
 
     public static final DeferredItem<Item> FROSTFIRE_ICE = ITEMS.register("frostfire_ice",
             () -> new FuelItem(new Item.Properties(), 800));

@@ -1,0 +1,4 @@
+// 1.21.1	2025-06-03T02:22:04.572865	Tags for minecraft:block mod id gudusupermarket
+7be3582589214310385bca73afb6b1b63375abfd data/minecraft/tags/block/mineable/pickaxe.json
+ef35c3fed2f0597becd75bddf5841282d56a0349 data/minecraft/tags/block/needs_diamond_tool.json
+2c0b308c1675c077ce1e4c572eee640975db7390 data/minecraft/tags/block/needs_iron_tool.json

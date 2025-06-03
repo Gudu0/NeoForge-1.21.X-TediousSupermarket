@@ -1,7 +1,6 @@
 {
   "item.gudusupermarket.bismuth" : "Bismuth",
   "item.gudusupermarket.raw_bismuth" : "Raw Bismuth",
-  "item.gudusupermarket.morgans_disappointment" : "Morgan's Disappointment",
   "item.gudusupermarket.chisel" : "Chisel",
   "item.gudusupermarket.radish" : "Radish",
   "item.gudusupermarket.frostfire_ice" : "Frostfire Ice",
@@ -9,11 +8,14 @@
 
   "block.gudusupermarket.bismuth_block" : "Block of Bismuth",
   "block.gudusupermarket.bismuth_ore" : "Bismuth Ore",
-  "block.gudusupermarket.morgans_disappointment_block" : "Block of Morgan's Disappointment",
   "block.gudusupermarket.bismuth_deepslate_ore" : "Deepslate Bismuth Ore",
   "block.gudusupermarket.magic_block" : "Magic Block",
 
   "creativetab.gudusupermarket.bismuth_items" : "Bismuth Items",
   "creativetab.gudusupermarket.bismuth_blocks" : "Bismuth Blocks",
-  "creativetab.gudusupermarket.morgans_disappointment" : "Morgan's Disappointment"
+
+  "tooltip.gudusupermarket.magic_block.tooltip" : "This Block is very §9MAGICAL§r",
+  "tooltip.gudusupermarket.chisel.shift_down" : "This item can chisel Blocks into Bricks",
+  "tooltip.gudusupermarket.chisel" : "Press §eShift§r for more Information",
+  "tooltip.gudusupermarket.radish.tooltip" : "Tastes really great!"
 }

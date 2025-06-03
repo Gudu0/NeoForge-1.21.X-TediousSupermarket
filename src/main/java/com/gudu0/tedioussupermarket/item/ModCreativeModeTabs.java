@@ -8,7 +8,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
@@ -40,17 +39,6 @@ public class ModCreativeModeTabs {
                        output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
                        output.accept(ModBlocks.MAGIC_BLOCK);
                     }).build());
-
-
-    public static final Supplier<CreativeModeTab> MORGANS_DISAPPOINTMENT = CREATIVE_MODE_TAB.register("morgans_disappointment",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.MORGANS_DISAPPOINTMENT_BLOCK))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(TediousSupermarket.MOD_ID, "bismuth_blocks_tab"))
-                    .title(Component.translatable("creativetab.gudusupermarket.morgans_disappointment"))
-                    .displayItems((parameters, output) -> {
-                       output.accept(ModBlocks.MORGANS_DISAPPOINTMENT_BLOCK);
-                       output.accept(ModItems.MORGANS_DISAPPOINTMENT);
-                    }).build());
-
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
