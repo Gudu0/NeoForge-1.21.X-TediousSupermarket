@@ -1,4 +1,7 @@
-// 1.21.1	2025-06-03T02:22:04.572865	Tags for minecraft:block mod id gudusupermarket
-7be3582589214310385bca73afb6b1b63375abfd data/minecraft/tags/block/mineable/pickaxe.json
-ef35c3fed2f0597becd75bddf5841282d56a0349 data/minecraft/tags/block/needs_diamond_tool.json
+// 1.21.1	2025-06-04T01:40:08.6400153	Tags for minecraft:block mod id gudusupermarket
+7d124c668084e782b897c23fc7c16c60a2112515 data/minecraft/tags/block/fences.json
+ae0f0c526c5c70976dd98356e201cd0c9d763e67 data/minecraft/tags/block/fence_gates.json
+af039c17d79347347423ccbad65610f383e52b36 data/minecraft/tags/block/mineable/axe.json
+2d7a19257564b8212741a231de3188884124caaa data/minecraft/tags/block/mineable/pickaxe.json
 2c0b308c1675c077ce1e4c572eee640975db7390 data/minecraft/tags/block/needs_iron_tool.json
+e41c80257ba4069078526d92e34a8f47a62372dd data/minecraft/tags/block/walls.json

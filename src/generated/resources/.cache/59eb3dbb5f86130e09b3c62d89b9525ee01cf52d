@@ -1,4 +1,13 @@
-// 1.21.1	2025-06-03T01:10:07.7301072	Loot Tables
+// 1.21.1	2025-06-04T00:46:30.1720101	Loot Tables
 1d7548208c003f6bc1f3f9f033151bb42ec87754 data/gudusupermarket/loot_table/blocks/bismuth_block.json
+2539f84c5a7116a187d0f64e210c461f428dfdd3 data/gudusupermarket/loot_table/blocks/bismuth_button.json
 7a93a69c7d43a321db82838d8de494b458fabca7 data/gudusupermarket/loot_table/blocks/bismuth_deepslate_ore.json
+42d3acb061af82305f60ebb4b06200f537967489 data/gudusupermarket/loot_table/blocks/bismuth_door.json
+f7f5f76114fc4a29adec1e4dc1299dfbce76ad54 data/gudusupermarket/loot_table/blocks/bismuth_fence.json
+31733ff80737456381e4d9003e485856a656c962 data/gudusupermarket/loot_table/blocks/bismuth_fence_gate.json
 67b1268301ba60795a8c98782b57d0b0afa27eff data/gudusupermarket/loot_table/blocks/bismuth_ore.json
+fce34e78fd1df04c793b5ce1e91356453e569349 data/gudusupermarket/loot_table/blocks/bismuth_pressure_plate.json
+9805052831a37d3441e1ff65edfc1b15240c56c6 data/gudusupermarket/loot_table/blocks/bismuth_slab.json
+c196d6a9c0677eec9701f0e2394a96ee53a638a3 data/gudusupermarket/loot_table/blocks/bismuth_stairs.json
+9d1da7934e8d70c39f80fca4e55bb9af4e674307 data/gudusupermarket/loot_table/blocks/bismuth_trapdoor.json
+48ee0485c8e8db6821ab7229b1b137a8e4c6f785 data/gudusupermarket/loot_table/blocks/bismuth_wall.json

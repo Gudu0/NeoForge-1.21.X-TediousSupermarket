@@ -5,6 +5,7 @@ import com.gudu0.tedioussupermarket.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -21,10 +22,29 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.BISMUTH_BLOCK.get())
                 .add(ModBlocks.BISMUTH_ORE.get())
-                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get());
+                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get())
+                .add((ModBlocks.BISMUTH_WALL.get()));
 
+        tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(ModBlocks.BISMUTH_FENCE.get())
+                .add(ModBlocks.BISMUTH_FENCE_GATE.get())
+                .add(ModBlocks.BISMUTH_STAIRS.get())
+                .add(ModBlocks.BISMUTH_BUTTON.get())
+                .add(ModBlocks.BISMUTH_PRESSURE_PLATE.get())
+                .add(ModBlocks.BISMUTH_SLAB.get())
+                .add(ModBlocks.BISMUTH_DOOR.get())
+                .add(ModBlocks.BISMUTH_TRAPDOOR.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get());
+
+        tag(BlockTags.FENCES)
+                .add(ModBlocks.BISMUTH_FENCE.get());
+
+        tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.BISMUTH_FENCE_GATE.get());
+
+        tag(BlockTags.WALLS)
+                .add(ModBlocks.BISMUTH_WALL.get());
     }
 }
