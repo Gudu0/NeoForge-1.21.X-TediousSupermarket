@@ -1,6 +1,7 @@
 package com.gudu0.tedioussupermarket;
 
 import com.gudu0.tedioussupermarket.block.ModBlocks;
+import com.gudu0.tedioussupermarket.component.ModDataComponents;
 import com.gudu0.tedioussupermarket.item.ModCreativeModeTabs;
 import com.gudu0.tedioussupermarket.item.ModItems;
 //import net.minecraft.world.item.CreativeModeTabs;
@@ -43,6 +44,8 @@ public class TediousSupermarket {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+
+        ModDataComponents.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
