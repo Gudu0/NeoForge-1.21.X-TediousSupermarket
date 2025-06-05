@@ -1,6 +1,7 @@
 package com.gudu0.tedioussupermarket.block;
 
 import com.gudu0.tedioussupermarket.TediousSupermarket;
+import com.gudu0.tedioussupermarket.block.custom.BismuthLampBlock;
 import com.gudu0.tedioussupermarket.block.custom.MagicBlock;
 import com.gudu0.tedioussupermarket.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -92,6 +93,20 @@ public class ModBlocks {
                     .strength(2f)
                     .requiresCorrectToolForDrops()
                     .noOcclusion()));
+
+    public static final DeferredBlock<Block> BISMUTH_LAMP = registerBlock("bismuth_lamp",
+            () -> new BismuthLampBlock(BlockBehaviour.Properties.of()
+                    .strength(2f)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(BismuthLampBlock.CLICKED) ? 15 : 0)));
+
+
+
+
+
+
+
+
 
     //Code for making the block item
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

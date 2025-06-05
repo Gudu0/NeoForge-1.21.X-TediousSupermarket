@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "gudusupermarket:block/bismuth_block"
+  }
+}
