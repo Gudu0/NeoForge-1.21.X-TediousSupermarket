@@ -1,2 +1,7 @@
-// 1.21.1	2025-06-03T01:56:10.9130359	Tags for minecraft:item mod id gudusupermarket
+// 1.21.1	2025-06-05T22:41:31.0012226	Tags for minecraft:item mod id gudusupermarket
 aeabb7545f00f7d1fe6cff60ddf916654d2f833e data/gudusupermarket/tags/item/transformable_items.json
+d86f6ce2febb3946b0f7724cac034e95773e3618 data/minecraft/tags/item/axes.json
+b2a4d5ee85bfad2c633048ed9a8f5f4e39fc5400 data/minecraft/tags/item/hoes.json
+12a811ba4f6c19c0173766104684eda2041a0722 data/minecraft/tags/item/pickaxes.json
+b4a6e5c77b146b0110fbd41e478ac2c124db6d49 data/minecraft/tags/item/shovels.json
+1d8ff32e1788a813622123b71f47572724495b5b data/minecraft/tags/item/swords.json

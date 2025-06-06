@@ -5,6 +5,11 @@
   "item.gudusupermarket.radish" : "Radish",
   "item.gudusupermarket.frostfire_ice" : "Frostfire Ice",
   "item.gudusupermarket.starlight_ashes" : "Starlight Ashes",
+  "item.gudusupermarket.bismuth_sword" : "Bismuth Sword",
+  "item.gudusupermarket.bismuth_pickaxe" : "Bismuth Pickaxe",
+  "item.gudusupermarket.bismuth_shovel" : "Bismuth Shovel",
+  "item.gudusupermarket.bismuth_axe" : "Bismuth Axe",
+  "item.gudusupermarket.bismuth_hoe" : "Bismuth Hoe",
 
   "block.gudusupermarket.bismuth_block" : "Block of Bismuth",
   "block.gudusupermarket.bismuth_ore" : "Bismuth Ore",
