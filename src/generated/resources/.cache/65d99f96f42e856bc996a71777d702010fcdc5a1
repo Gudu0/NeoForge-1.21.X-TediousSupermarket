@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-06T22:50:10.7280755	Item Models: gudusupermarket
+// 1.21.1	2025-06-07T00:46:35.1024447	Item Models: gudusupermarket
 b2e495c212ec120d086a1483f89dded86c6b635e assets/gudusupermarket/models/item/bismuth.json
 f32c3dc3c978c6e871e5f3df794071dbeeb2b8b4 assets/gudusupermarket/models/item/bismuth_axe.json
 7a685d78ac1b520fe638170487be2becd1697fc3 assets/gudusupermarket/models/item/bismuth_boots.json
@@ -57,6 +57,7 @@ b773798df0e080e6c6da43c959ecd4b7d398f8cf assets/gudusupermarket/models/item/bism
 ec7777decabedeafb3b53ce87804226cc89ca98c assets/gudusupermarket/models/item/bismuth_wall.json
 49017d1821e3f53745a9a481ba7b526269861633 assets/gudusupermarket/models/item/chisel.json
 c233f55df15e12cb13ef1cedfcb6d9fce7b17cfe assets/gudusupermarket/models/item/frostfire_ice.json
+939f581b8010cd1f0a543d64b24b67bb1bba5d9a assets/gudusupermarket/models/item/kaupen_armor_trim_smithing_template.json
 44f9c4e9a2e9f1a5e35d4254d33f3c40ca35d2f6 assets/gudusupermarket/models/item/radish.json
 c81c73e9a9e0576a2430885d011d48587fa4571e assets/gudusupermarket/models/item/raw_bismuth.json
 f04edc9e32280ddf0f2edc88881f2406ace7436e assets/gudusupermarket/models/item/starlight_ashes.json

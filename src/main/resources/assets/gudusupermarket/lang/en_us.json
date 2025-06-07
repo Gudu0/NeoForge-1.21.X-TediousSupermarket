@@ -16,6 +16,7 @@
   "item.gudusupermarket.bismuth_leggings" : "Bismuth Leggings",
   "item.gudusupermarket.bismuth_boots" : "Bismuth Boots",
   "item.gudusupermarket.bismuth_horse_armor" : "Bismuth Horse Armor",
+  "item.gudusupermarket.kaupen_armor_trim_smithing_template" : "Kaupen Armor Trim",
 
   "block.gudusupermarket.bismuth_block" : "Block of Bismuth",
   "block.gudusupermarket.bismuth_ore" : "Bismuth Ore",
@@ -37,5 +38,9 @@
   "tooltip.gudusupermarket.magic_block.tooltip" : "This Block is very §9MAGICAL§r",
   "tooltip.gudusupermarket.chisel.shift_down" : "This item can chisel Blocks into Bricks",
   "tooltip.gudusupermarket.chisel" : "Press §eShift§r for more Information",
-  "tooltip.gudusupermarket.radish.tooltip" : "Tastes really great!"
+  "tooltip.gudusupermarket.radish.tooltip" : "Tastes really great!",
+
+  "trim_pattern.gudusupermarket.kaupen" : "Kaupen Armor Trim",
+  "trim_material.gudusupermarket.bismuth" : "Bismuth Material"
+
 }

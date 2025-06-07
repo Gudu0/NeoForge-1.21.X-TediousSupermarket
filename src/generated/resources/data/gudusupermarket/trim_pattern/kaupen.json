@@ -1,0 +1,8 @@
+{
+  "asset_id": "gudusupermarket:kaupen",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.gudusupermarket.kaupen"
+  },
+  "template_item": "gudusupermarket:kaupen_armor_trim_smithing_template"
+}

@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-04T00:52:42.9861102	Recipes
+// 1.21.1	2025-06-07T00:46:35.0981468	Recipes
 7305de0b225993744700ba92416f68b48cd6e7a1 data/gudusupermarket/advancement/recipes/building_blocks/bismuth_slab.json
 5e3df69729acc389823481e4510041848d6da0bf data/gudusupermarket/advancement/recipes/building_blocks/bismuth_stairs.json
 aca357105f49ca2d15af0f716c847e704d57e02d data/gudusupermarket/advancement/recipes/building_blocks/bismuth_wall.json
@@ -12,6 +12,7 @@ e805a98779c71382f799bc2c01be827716ae1538 data/gudusupermarket/advancement/recipe
 d524317b161ee99ee2e156103185e2de8603e619 data/gudusupermarket/advancement/recipes/misc/bismuth_from_smelting_bismuth_deepslate_ore.json
 adcf7ed808530cc4c83965c69b32210aff02cc76 data/gudusupermarket/advancement/recipes/misc/bismuth_from_smelting_bismuth_ore.json
 fb23c2aaf1b6b0881ce98cfa2e0b00f4517e315e data/gudusupermarket/advancement/recipes/misc/bismuth_from_smelting_raw_bismuth.json
+2ec1c7b03dd33833ecb14a8a64c154a305d5b69c data/gudusupermarket/advancement/recipes/misc/kaupen.json
 5afb5f6238eaf921c86fc32007c1537ccdddfc97 data/gudusupermarket/advancement/recipes/redstone/bismuth_button.json
 3db87f42e10a656ca0c3c5853ca28b3122b82a24 data/gudusupermarket/advancement/recipes/redstone/bismuth_door.json
 670c96e69e671d981f7ece97184a377aaeb5f5f2 data/gudusupermarket/advancement/recipes/redstone/bismuth_fence_gate.json
@@ -35,3 +36,4 @@ e2072c80c152033d10fdc4060a69ade959c6d6ac data/gudusupermarket/recipe/bismuth_sla
 8799f74e62bf179e76c6586913c772272e106b10 data/gudusupermarket/recipe/bismuth_stairs.json
 e8ab7564ff587e08595ba201337b6884736442b9 data/gudusupermarket/recipe/bismuth_trapdoor.json
 a57c638307cc87eb1795d2938934a7814b3c2df5 data/gudusupermarket/recipe/bismuth_wall.json
+dea18bd6d29862214662bde5f5dc3d120fd79056 data/gudusupermarket/recipe/kaupen.json
