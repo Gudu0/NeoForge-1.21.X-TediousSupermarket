@@ -5,6 +5,7 @@ import com.gudu0.tedioussupermarket.component.ModDataComponents;
 import com.gudu0.tedioussupermarket.item.ModCreativeModeTabs;
 import com.gudu0.tedioussupermarket.item.ModItems;
 //import net.minecraft.world.item.CreativeModeTabs;
+import com.gudu0.tedioussupermarket.util.ModItemProperties;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -80,7 +81,7 @@ public class TediousSupermarket {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gudusupermarket:item/chisel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "gudusupermarket:used": 1
+      },
+      "model": "gudusupermarket:item/chisel_used"
+    }
+  ]
+}
