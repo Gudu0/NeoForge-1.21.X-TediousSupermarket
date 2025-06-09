@@ -1,6 +1,5 @@
 package com.gudu0.tedioussupermarket.block.custom;
 
-import com.gudu0.tedioussupermarket.item.ModItems;
 import com.gudu0.tedioussupermarket.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;

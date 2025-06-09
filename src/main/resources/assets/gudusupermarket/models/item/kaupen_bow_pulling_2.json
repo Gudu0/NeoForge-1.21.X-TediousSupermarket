@@ -1,0 +1,6 @@
+{
+    "parent": "gudusupermarket:item/kaupen_bow",
+    "textures": {
+        "layer0": "gudusupermarket:item/kaupen_bow_pulling_2"
+    }
+}

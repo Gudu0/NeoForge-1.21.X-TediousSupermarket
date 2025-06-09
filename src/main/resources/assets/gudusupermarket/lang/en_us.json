@@ -17,10 +17,12 @@
   "item.gudusupermarket.bismuth_boots" : "Bismuth Boots",
   "item.gudusupermarket.bismuth_horse_armor" : "Bismuth Horse Armor",
   "item.gudusupermarket.kaupen_armor_trim_smithing_template" : "Kaupen Armor Trim",
+  "item.gudusupermarket.kaupen_bow" : "Kaupen Bowm",
 
   "block.gudusupermarket.bismuth_block" : "Block of Bismuth",
   "block.gudusupermarket.bismuth_ore" : "Bismuth Ore",
   "block.gudusupermarket.bismuth_deepslate_ore" : "Deepslate Bismuth Ore",
+  "block.gudusupermarket.magic_block" : "Magic Block",
   "block.gudusupermarket.bismuth_stairs": "Bismuth Stairs",
   "block.gudusupermarket.bismuth_slab": "Bismuth Slab",
   "block.gudusupermarket.bismuth_button": "Bismuth Button",
