@@ -5,6 +5,7 @@ import com.gudu0.tedioussupermarket.item.custom.ChiselItem;
 import com.gudu0.tedioussupermarket.item.custom.FuelItem;
 import com.gudu0.tedioussupermarket.item.custom.HammerItem;
 import com.gudu0.tedioussupermarket.item.custom.ModArmorItem;
+import com.gudu0.tedioussupermarket.sound.ModSounds;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
@@ -85,8 +86,16 @@ public class ModItems {
     public static final DeferredItem<Item> KAUPEN_BOW = ITEMS.register("kaupen_bow",
             () -> new BowItem(new Item.Properties().durability(500)));
 
+    public static final DeferredItem<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).stacksTo(1)));
 
 
+
+
+
+
+
+    
 
 
     public static final DeferredItem<Item> FROSTFIRE_ICE = ITEMS.register("frostfire_ice",

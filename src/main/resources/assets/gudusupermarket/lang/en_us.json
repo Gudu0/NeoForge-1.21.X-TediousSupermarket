@@ -17,7 +17,9 @@
   "item.gudusupermarket.bismuth_boots" : "Bismuth Boots",
   "item.gudusupermarket.bismuth_horse_armor" : "Bismuth Horse Armor",
   "item.gudusupermarket.kaupen_armor_trim_smithing_template" : "Kaupen Armor Trim",
-  "item.gudusupermarket.kaupen_bow" : "Kaupen Bowm",
+  "item.gudusupermarket.kaupen_bow" : "Kaupen Bow",
+  "item.gudusupermarket.bar_brawl_music_disc" : "Bar Brawl Music Disc",
+  "item.gudusupermarket.bar_brawl_music_disc.desc" : "Bryan Tech - Bar Brawl (CC0)",
 
   "block.gudusupermarket.bismuth_block" : "Block of Bismuth",
   "block.gudusupermarket.bismuth_ore" : "Bismuth Ore",

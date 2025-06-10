@@ -2,6 +2,7 @@ package com.gudu0.tedioussupermarket.item.custom;
 
 import com.gudu0.tedioussupermarket.block.ModBlocks;
 import com.gudu0.tedioussupermarket.component.ModDataComponents;
+import com.gudu0.tedioussupermarket.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -40,7 +41,7 @@ public class ChiselItem extends Item {
         Level level = context.getLevel();
         Block clickedBlock = level.getBlockState(context.getClickedPos()).getBlock();
 
-        //If the block clicked is in the Chiselmap key
+        //If the block clicked is in the Chisel map key
         if (CHISELMAP.containsKey(clickedBlock)) {
             //making sure its on the server side
             if (!level.isClientSide()) {
@@ -51,7 +52,7 @@ public class ChiselItem extends Item {
                 context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), context.getPlayer(),
                         item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
                 //
-                level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+                level.playSound(null, context.getClickedPos(), ModSounds.CHISEL_USE.get(), SoundSource.BLOCKS);
 
                 context.getItemInHand().set(ModDataComponents.COORDINATES, context.getClickedPos());
             }

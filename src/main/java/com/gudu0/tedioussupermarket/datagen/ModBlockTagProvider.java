@@ -54,7 +54,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(ModTags.Blocks.NEEDS_BISMUTH_TOOL)
                 .add(ModBlocks.BISMUTH_LAMP.get())
-                .addTag(BlockTags.NEEDS_IRON_TOOL);
+                .addTag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK.get());
 
 
         tag(ModTags.Blocks.INCORRECT_FOR_BISMUTH_TOOL)

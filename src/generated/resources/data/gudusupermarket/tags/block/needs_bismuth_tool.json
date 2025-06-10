@@ -1,6 +1,7 @@
 {
   "values": [
     "gudusupermarket:bismuth_lamp",
-    "#minecraft:needs_iron_tool"
+    "#minecraft:needs_iron_tool",
+    "gudusupermarket:magic_block"
   ]
 }
