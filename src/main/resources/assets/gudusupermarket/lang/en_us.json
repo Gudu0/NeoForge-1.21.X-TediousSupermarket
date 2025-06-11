@@ -20,6 +20,9 @@
   "item.gudusupermarket.kaupen_bow" : "Kaupen Bow",
   "item.gudusupermarket.bar_brawl_music_disc" : "Bar Brawl Music Disc",
   "item.gudusupermarket.bar_brawl_music_disc.desc" : "Bryan Tech - Bar Brawl (CC0)",
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
 
   "block.gudusupermarket.bismuth_block" : "Block of Bismuth",
   "block.gudusupermarket.bismuth_ore" : "Bismuth Ore",
@@ -45,6 +48,7 @@
   "tooltip.gudusupermarket.radish.tooltip" : "Tastes really great!",
 
   "trim_pattern.gudusupermarket.kaupen" : "Kaupen Armor Trim",
-  "trim_material.gudusupermarket.bismuth" : "Bismuth Material"
+  "trim_material.gudusupermarket.bismuth" : "Bismuth Material",
 
+  "effect.gudusupermarket.slimey": "Slimey"
 }
