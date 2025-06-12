@@ -50,5 +50,12 @@
   "trim_pattern.gudusupermarket.kaupen" : "Kaupen Armor Trim",
   "trim_material.gudusupermarket.bismuth" : "Bismuth Material",
 
-  "effect.gudusupermarket.slimey": "Slimey"
+  "effect.gudusupermarket.slimey": "Slimey",
+
+  "painting.gudusupermarket.world.title": "World",
+  "painting.gudusupermarket.world.author": "NanoAttack",
+  "painting.gudusupermarket.shrimp.title": "Shrimp",
+  "painting.gudusupermarket.shrimp.author": "NanoAttack",
+  "painting.gudusupermarket.saw_them.title": "Saw Them",
+  "painting.gudusupermarket.saw_them.author": "NanoAttack"
 }
